@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+#wrapper {
+	width:792px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#headerNav ul {
+	list-style:none;
+	padding-top:10px;
+	border-top:solid 0.5px #2d9dff;
+}
+
+#headerNav ul li {
+	float:left;
+	padding-right:138px;
+}
+
+#headerNav ul .last {
+	padding-right:0px;
+}
+
+.topLeft {
+	background:url(images/topLeftGreen.gif) top left no-repeat;
+	width:225px;
+}
+
+.bottomLeft {
+	background:url(images/bottomLeft.gif) bottom left no-repeat;
+}
+
+.topRight {
+	background:url(images/topRightGreen.gif) top right no-repeat;
+}
+
+.bottomRight {
+	background:url(images/bottomRight.gif) bottom right no-repeat;
+	height:400px;
+	padding-top:50px;
+	padding-left:15px;
+	position:relative;
+}
+
+#news {
+	float:left;
+}
+
+#news img {
+	position:absolute;
+	top:5px;
+	left:10px;
+}
